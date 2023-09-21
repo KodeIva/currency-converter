@@ -9,9 +9,9 @@ function App() {
     <>
      <h1>Convert currency</h1>
      <div className="container">
-      <Currency/>
+      <Currency defaultValue={1}/>
       <button>swap</button>
-      <Currency/>
+      <Currency defaultValue={0}/>
      </div>
     </>
   )

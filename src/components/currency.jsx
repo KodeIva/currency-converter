@@ -1,11 +1,12 @@
 import React from 'react'
 
-const Currency = () => {
+const Currency = ({defaultValue}) => {
   return (
     <div>
         <select name="" id="">
-            <option value="iva">iva</option>
+            <option defaultValue="iva">iva</option>
         </select>
+        <input type="number" defaultValue={defaultValue}/>
     </div>
   )
 }
