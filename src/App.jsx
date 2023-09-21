@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Currency from './components/currency'
+import {FiRepeat} from 'react-icons/fi'
 
 function App() {
  
@@ -10,7 +11,7 @@ function App() {
      <h1>Convert currency</h1>
      <div className="container">
       <Currency defaultValue={1}/>
-      <button>swap</button>
+        <FiRepeat/>
       <Currency defaultValue={0}/>
      </div>
     </>
